@@ -22,23 +22,30 @@
 }
 
 #btn {
-  padding: 1em 2.5em;
-  color: #8a7040;
-  background-color: #f1ead7;
-  border: 0.2em solid #bbac83;
-  border-radius: 5px;
-  transition: 500ms;
+
+
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  color: #f2bc56;
+  border-color: #f2bc56;
 
 }
 
+
 #btn:hover {
-  padding: 1em 2.5em;
-
+  color: #fff;
   background-color: #f2bc56;
-  border: 0.5em solid #8a7040;
-  border-radius: 5px;
-  transition: 500ms;
-
+  border-color: #f2bc56;
 }
 
 
@@ -68,7 +75,7 @@ html {
   min-width: 12.5em;
   max-width: 12.5em;
   height: 29vh;
-  border: 5px solid #8a7040;
+  border: 5px solid #f2bc56;
   box-sizing: border-box;
   border-radius: 20px;
   background-color: #1b1a1a;
