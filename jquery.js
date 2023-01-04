@@ -1,20 +1,6 @@
 $(document).ready(function () {
 
-    /*
-    $("#btn").css('background', '#f2bc56');
-    $("#btn").css('border', '0.25em solid #8a7040');
-    $("#btn").hover(function () {
-        $(this).css("background", "#f1ead7");
 
-        $(this).css("border", "0.25em solid #bbac83");
-    }, function () {
-
-        $(this).css('background', '#f2bc56');
-        $(this).css('border', '0.25em solid #8a7040');
-    });
-
-
-*/
     const name_1 = ["le village", "la bougie", "le fauteuil", "le soleil", "le couloir", "le chemin", "le sourire", "le parc", "le monde", "les étoiles"];
     const name_2 = ["l'aura", "l'averse", "la piqûre", "la fatigue",
         "l'expression", "le futur", "la vision", "les enfants",
@@ -135,20 +121,18 @@ $(document).ready(function () {
 
         var element_id = $(this);
 
-        // Установим атрибут на кнопку disabled
         $(element_id).attr('disabled', 'disabled');
         $(element_id).html('Loading');
         $(element_id).css('background', '#1b1a1a');
         $(element_id).css('border', '#1b1a1a');
 
 
-        // Через 5 секунд уберем этот атрибут
         setTimeout(function () {
             $(element_id).removeAttr('disabled');
             $(element_id).html('Click me');
             $(element_id).css('border', '1px solid #f2bc56');
 
-        }, 15000); // Время в милисекундах
+        }, 15000);
 
     });
 
