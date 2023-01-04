@@ -1,0 +1,157 @@
+.titre { 
+  position: relative;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.res { 
+  position: relative;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+#btn {
+  padding: 1em 2.5em;
+  background-color: #f2bc56;
+  border: 1px solid #f2bc56;
+  border-radius: 5px;
+
+}
+
+
+html {
+  background-color: #1b1a1a;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+i {
+  text-align: center;
+  margin-top: 48px;
+  font-size: 130px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+.names{
+  padding-top: 0.5vh;
+  
+  box-sizing: border-box;
+  color: #f2bc56;
+  font-size: large;
+}
+
+
+.card {
+  padding-top: 5vh;
+  display: inline-block;
+  text-align: center;
+  width: 20vw;
+  max-width: 12.5em;
+  height: 32vh;
+  border: 5px solid #8a7040;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #1b1a1a;
+
+margin-left: 5vw;
+margin-right: 5vw;
+}
+
+#header {
+  margin-left: 64px;
+}
+
+h1 {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  color: #f2bc56;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #f1ead7;
+  text-transform: uppercase;
+}
+
+h3 {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  color: #e7dbb9;
+}
+
+em {
+  color: #fdb632;
+  font-style:normal ;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #f1ead7;
+  margin-top: 32px;
+}
+
+
+
+
+
+
+
+.reversed {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+img {
+  max-width: 6rem;
+}
+
+
+
+#elementEl::after {
+  content: '|';
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+
+#elementEl {
+  font-size: 2em;
+}
+
+
